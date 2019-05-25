@@ -18,11 +18,13 @@
 				<input type="text" placeholder="Search..." id="search-bar">
 			</div>
 			<div>
-
+				<button class="round-button"><img src="img/outline-refresh-24px.svg"></button>
+				<button class="round-button"><img src="img/outline-settings-24px.svg"></button>
+				<button class="round-button"><img src="img/outline-account_circle-24px.svg"></button>
 			</div>
 		</header>
+		<div height="1" class="horizontal-line"></div>
 		<div id="page-wrapper">
-			<div height="1" class="horizontal-line"></div>
 			<div id="menu">
 				<div class="category">
 					<button class="menu-button"><img src="img/outline-note-24px.svg"><span>Notes</span></button>
@@ -40,11 +42,17 @@
 					<button class="menu-button"><img src="img/outline-delete-24px.svg"><span>Trash</span></button>
 				</div>
 			</div>
-			<div id="notes">
-	
-			</div>
-			<div if="todo">
-
+			<div id="content">
+				<h3>PINNED</h3>
+				<div id="pinned"></div>
+				<div id="notes">
+					<div class="note">
+						<p>I have to do something tonight, i should code some more</p>
+						<div class="note-ui">
+							<button class="round-button"></button>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>
